@@ -1,7 +1,7 @@
 package store
 
 import ("context"
-"error"
+"errors"
 "github.com/jackc/pgx/v5"
 )
 type Movie struct {
